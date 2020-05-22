@@ -1,0 +1,30 @@
+.h1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 4rem;
+}
+
+.input {
+    position: absolute;
+    left: 43%; 
+}
+
+.edit {
+    position: absolute;
+    left: 56.5%;
+}
+
+.inputadd {
+    position: absolute;
+    left: 43%; 
+    top : 24.4rem;
+}
+
+.add {
+    position: absolute;
+    left: 56.5%;
+    top : 24.40rem;
+}
+

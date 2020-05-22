@@ -1,0 +1,352 @@
+body {
+    background-color:lightgrey;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav{
+    width: 614px;
+    height: 20px;
+    position: relative;
+    bottom: 30px;
+}
+
+.nav img{
+    position: relative;
+    top : 60px;
+    left : 110px;
+}
+
+.nav ul{
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+.nav li{
+    list-style-type: none;
+    display: inline-block;
+    color:black;
+    margin: 0 20px;
+    line-height:80px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'lato';
+    transition: all ease-in-out 0.3s;
+    position: relative;
+    left:700px;
+}
+.nav li:hover {
+    color: green;
+}
+
+.mainimage{
+    width: 1290px;
+    height: 775px;
+    position: relative;
+    top: 78px;
+    left: 72px;
+}
+
+.mainimage img{
+    width: 1290px;
+    height: 770px;
+}
+
+.textheader {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+    font-family: 'lato';
+    text-align: center;
+}
+
+h2, h3 {
+    font-style: italic;
+    color: #808000;
+}
+
+.service {
+    width: 1290px;
+    height: 340px;
+    background: white;
+    position: relative;
+    left: 72px;
+    top : 105px;
+}
+
+.serviceP1 {
+    text-align: center;
+    padding-top: 26px;
+}
+
+.serviceHP {
+    color: #808000;
+    font-size: 30px;
+    margin-bottom: -2px;
+}
+
+.serviceH {
+    color: #808000;
+    margin-bottom: -8px;
+    font-size: 22px;
+}
+
+.serviceP2 {
+    position: relative;
+    text-align: center;
+    width: 200px;
+    padding-left: 180px;
+    top : 24px;
+}
+
+.serviceP3 {
+    position: relative;
+    text-align: center;
+    width: 200px;
+    padding-left: 542px;
+    bottom: 124px;
+}
+
+.serviceP4 {
+    position: relative;
+    text-align: center;
+    width: 200px;
+    padding-left: 900px;
+    bottom: 267px;
+}
+
+.galleryI {
+    width: 1290px;
+    height: 280px;
+    margin-left: 72px;
+    margin-top: 138px;
+    padding-bottom: 39px;
+}
+
+.news {
+    width: 1290px;
+    height: 340px;
+    background: white;
+    position: relative;
+    left: 72px;
+    top : 39px;
+}
+
+.newsP1 {
+    position: relative;
+    text-align: center;
+    width: 400px;
+    padding-left: 140px;
+    top : 10px;
+}
+
+.newsP2 {
+    position: relative;
+    text-align: center;
+    width: 400px;
+    padding-left: 770px;
+    bottom : 168px;
+}
+
+.newsP1 p, .newsP2 p{
+    text-align: justify;
+}
+
+.galleryII {
+    width: 1290px;
+    height: 280px;
+    margin-left: 72px;
+    margin-top: 78px;
+    padding-bottom: 39px;
+}
+
+.skills {
+    width: 1290px;
+    height: 310px;
+    background: white;
+    position: relative;
+    left: 72px;
+    top : 39px;
+}
+
+.jauge1 {
+    position: relative;
+    padding-left: 140px;
+}
+
+.jauge2 {
+    position: relative;
+    padding-left: 140px;
+    bottom: 10px;
+}
+
+.jauge3 {
+    position: relative;
+    padding-left: 770px;
+    bottom: 187px;
+    
+}
+
+.jauge4 {
+    position: relative;
+    padding-left: 770px;
+    bottom: 196px;
+}
+
+.lightgrey1 {
+    background-color: lightgrey;
+    width: 400px;
+    height : 16px;
+    position: relative;
+    bottom: 16px;
+}
+
+.lightgrey2 {
+    background-color: lightgrey;
+    width: 400px;
+    height : 16px;
+    position: relative;
+    bottom: 16px;
+}
+
+.lightgrey3 {
+    background-color: lightgrey;
+    width: 400px;
+    height : 16px;
+    position: relative;
+    bottom: 16px;
+}
+
+.lightgrey4 {
+    background-color: lightgrey;
+    width: 400px;
+    height : 16px;
+    position: relative;
+    bottom: 16px;
+}
+
+.grey {
+    background-color: gray;
+}
+
+
+.galleryIII {
+    width: 1290px;
+    height: 280px;
+    margin-left: 72px;
+    margin-top: 78px;
+    padding-bottom: 39px;
+}
+
+.citation {
+    width: 1290px;
+    height: 230px;
+    background: white;
+    position: relative;
+    left: 72px;
+    top : 10px;
+}
+
+.citationp {
+    font-style: italic;
+    text-align: center;
+    font-size: 28px;
+    width: 60%;
+    padding-left: 250px;
+    padding-top: 73px;
+}
+
+.auteur {
+    font-style: italic;
+    text-align: center;
+    font-size: 26px;
+    width: 60%;
+    padding-left: 250px;
+    position: relative;
+    bottom: 46px;
+}
+
+.rs {
+    color: gray;
+}
+
+.formulaire {
+    width: 1290px;
+    height: 410px;
+    background: white;
+    position: relative;
+    left: 72px;
+    top : 24px;
+}
+
+.formulaire h2 {
+    text-align: center;
+    font-size: 34px;
+    padding-top: 50px;
+}
+
+.form {
+    position: relative;
+    left : 175px;
+    top: 15px;
+}
+
+#name,
+#email,
+#message{
+    width: 300px;
+}
+
+#message {
+    display: inline-block;
+    height: 45px;
+}
+
+#send {
+    background-color: lightgrey;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    padding: 7px 12px;
+}
+
+.contact {
+    margin-left: 770px;
+    position: relative;
+    bottom: 240px;
+}
+
+.footer {
+    width: 1290px;
+    height: 30px;
+    margin-bottom: 14px;
+    position: relative;
+    left: 72px;
+    top : 39px;
+}
+
+a, a:visited a:link{
+    text-decoration:none;
+    color: black;
+    }
+
+.copy {
+    padding-left: 26px;
+}
+
+.terms {
+    position: relative;
+    left: 80%;
+    bottom: 34px;
+}
+
+.map {
+    position: relative;
+    left: 92%;
+    bottom: 68px;
+}
+
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <title>My form</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="my_style.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <body>
+    <form name="My_form.html" method="POST">
+
+            <!-- Sexe-->
+  <section class="sexe_type">
+        <label>Sexe</label>
+        <input type="radio" id="Homme" name="genre" value="Homme">
+        <label for="Homme">Homme</label>
+        <input type="radio" id="Femme" name="genre" value="Femme">
+        <label for="Femme">Femme</label>
+        <input type="radio" id="Autre" name="genre" value="Autre">
+        <label for="Autre">Autre</label>
+      </section>
+
+      <!-- civilite - type select (M. Mme.) -->
+      <section class="civilite_type">
+      <label>Civilité</label>
+      <input type="radio" id="monsieur" name="civilite" value="monsieur">
+      <label for="monsieur">M.</label>
+      <input type="radio" id="madame" name="civilite" value="madame">
+      <label for="madame">Mme.</label>
+    </section>
+
+      <!-- Nom-->
+  <section class="nom_type">
+    <label for="Nom">Nom</label>
+    <input type="text" id="Nom" name="userame" minlength="2">
+  </section>
+   
+    <!-- email - type email -->
+    
+      <section class="email_type">
+      <label for="email">Votre email</label>
+      <input type="email" id="email" name="email"><br>
+  </section>
+
+      <!-- telephone-->
+      <section class="tel_type">
+        <label for="tel">Téléphone</label>     
+        <input type="tel" id="tel" name="telephone">
+    </section>
+
+<!-- website - type url -->
+<section class="url_type">
+<label for="website">Votre site web</label>
+<input type="url" id="website" name="website"><br>
+</section>
+ 
+<!-- date de naissance -->
+<section class="date_type">
+  <label for="born">Date de naissance</label>
+  <input type="date" id="born" name="date">
+</section>
+
+<!-- hobbies - type checkbox, Jeux video, Cinema, Lecture, Sport et Informatique -->
+<section class="passion_type">
+<label>Vos passions</label>
+<input type="checkbox" name="passions" value="Jeux video"> Jeux video
+<input type="checkbox" name="passions" value="Cinema"> Cinema
+<input type="checkbox" name="passions" value="Lecture"> Lecture
+<input type="checkbox" name="passions" value="Sport"> Sport
+<input type="checkbox" name="passions" value="Informatique"> Informatique
+</section>
+
+<!-- token-->
+<section class="hidden_type">
+  <label for="hide"></label>
+  <input id="hide" type="hidden" name="hidden" value="my first website">
+ <!-- Vu par Matthieu, pas trouvé, W3C validator-->
+</section>
+
+<input id="submit_button" onclick="validateForm()" type="submit" value="validation">
+
+</form>
+<script type="text/javascript" src="my_script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+<div>
+    <div class='h1'>
+        <h1>{{ toDoListName }}</h1>
+        <input class='input' #box (keyup)="onKey(box.value)">
+        <button class='edit' (click)="onClickMe()">edit</button>
+        <input class='inputadd' #addBox (keyup)="onKeyAdd(addBox.value)">
+        <button class='add' (click)="onClick()">add</button>
+    </div>
+
+    <app-task *ngFor="let task of tasksList; let i = index" [taskName]="tasksList[i].taskName" [status]="tasksList[i].status"></app-task>
+</div>

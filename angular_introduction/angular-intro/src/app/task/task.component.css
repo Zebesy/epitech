@@ -1,0 +1,37 @@
+.task {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 25%;
+    height: 4.5rem;
+    background-color: darkslategray;
+    color: white;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.task label {
+    position: absolute;
+    margin-top: 1.25%;
+    left: 42%;
+}
+
+.check {
+    position: absolute;
+    left: 57%;
+    margin-top: 1.5%;
+}
+
+.input {
+    position: absolute;
+    margin-top: 3.25%;
+    left: 43%;
+    
+}
+
+.edit {
+    position: absolute;
+    margin-top: 3.25%;
+    left: 56.5%;
+}
+

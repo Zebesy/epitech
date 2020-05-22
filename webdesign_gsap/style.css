@@ -1,0 +1,255 @@
+body {
+    width: 100%;
+    background-color: #5c86d2;
+}
+button {
+    position: relative;
+    top: 50px;
+}
+/* Smiley face */
+.emoji_face{
+    width: 30%;
+    position: relative;
+    left: 24.5%;
+    top: 36vh;
+}
+
+.face {
+    width: 25%;
+    position: relative;
+    top: 14vh;
+}
+
+.face2 {
+    width: 25%;
+    position: relative;
+    top: 14vh;
+    right: 26%;
+}
+
+.face3 {
+    width: 25%;
+    position: relative;
+    top: 14vh;
+    right: 52%;
+}
+
+.face4 {
+    width: 25%;
+}
+
+/* Eyes */
+.eyes{
+    width: 30%;
+    position: relative;
+    left: 39%;
+    top: 30vh;
+}
+
+.happy_eyes{
+    width: 25%;
+}
+
+.sad_eyes{
+    width: 13%;
+    position: relative;
+    right: 19.5%;
+}
+
+.in-love_eyes{
+    width: 13%;
+    position: relative;
+    right: 33.5%;
+}
+
+.tongue_eyes{
+    width: 13%;
+    position: relative;
+    right: 47%;
+}
+
+/* mouth */
+.mouth{
+    width: 30%;
+    position: relative;
+    left: 58%;
+    top: 24vh;
+}
+
+.happy_mouth{
+    width: 25%;
+}
+
+.sad_mouth{
+    width: 25%;
+    position: relative;
+    right: 25.5%;
+}
+
+.in-love_mouth{
+    width: 25%;
+    position: relative;
+    right: 52%;
+}
+
+.tongue_mouth{
+    width: 15%;
+    position: relative;
+    right: 73%;
+}
+
+/* Etape */
+.steps {
+    margin-left: 10%;
+}
+
+/* 1ere etape */
+.first_step{
+    width: 23%;
+    height: 30vh;
+    position: relative;
+    left: 7%;
+    top: 29vh;
+}
+
+.conveyor_base {
+    width: 22%;
+    position: relative;
+    top: 15px;
+}
+
+.conveyor_arm2 {
+    width: 50%;
+    position: relative;
+    bottom: 70%;
+    right: 15%;
+}
+
+.conveyor_arm {
+    width: 15%;
+    position: relative;
+    right: 25%;
+    bottom: 32%;
+}
+
+.conveyor_belt {
+    width: 68%;
+    position: relative;
+    bottom: 19%;
+    left: 25%;
+}
+
+/* 2eme etape */
+.second_step{
+    width: 23%;
+    height: 40vh;
+    position: relative;
+    left: 30%;
+    bottom: 11vh;
+}
+
+.second_conveyor_base {
+    width: 13%;
+    position: relative;
+    bottom: 3%;
+    left: 63%;
+    transform:rotate(180deg);
+}
+
+.second_conveyor_arm2 {
+    width: 50%;
+    position: relative;
+    bottom: 4%;
+    left: 8%;
+}
+
+.second_conveyor_arm {
+    width: 15%;
+    position: relative;
+    right: 46.5%;
+    top: 24%;
+}
+
+.second_conveyor_belt {
+    width: 68%;
+    position: relative;
+    top: 38%;
+    left: -9%;
+}
+
+/* 3eme etape */
+.third_step{
+    width: 23%;
+    height: 40vh;
+    position: relative;
+    left: 50%;
+    bottom: 51vh;
+}
+
+.third_conveyor_base {
+    width: 13%;
+    position: relative;
+    bottom: 3%;
+    transform:rotate(180deg);
+}
+
+.third_conveyor_arm2 {
+    width: 30%;
+    position: relative;
+    bottom: 4.75%;
+    right: 10.5%;
+}
+
+.third_conveyor_arm {
+    width: 15%;
+    position: relative;
+    right: 20%;
+    top: 25%;
+}
+
+.third_conveyor_belt {
+    width: 68%;
+    position: relative;
+    top: 38%;
+    left: -30%;
+}
+
+.third_conveyor_belt2 {
+    width: 68%;
+    position: relative;
+    top: 23.25%;
+    left: 36%;
+}
+
+.machine {
+    width: 20%;
+    position: relative;
+    bottom: 36.10em;
+    left: 3.5%;
+}
+
+.control {
+    width: 50%;
+}
+
+.lever {
+    width: 10%;
+    position: relative;
+    bottom: 10vh;
+    left: 5%;
+    transform:rotate(280deg);
+}
+
+.funnel {
+    position: absolute;
+    right: 34%;
+    top: 63.5%;
+    width: 7%;
+}
+
+.funnel2 {
+    position: absolute;
+    width: 7%;
+    left: 40%;
+    top: 63.5%;
+}

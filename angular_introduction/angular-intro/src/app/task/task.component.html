@@ -1,0 +1,23 @@
+<!-- <div class='task'>
+    <label for="task">{{ taskName }}</label>
+    <input type="checkbox" name="task">
+</div>
+
+<div class='task'>
+    <label for="task">{{ taskName }}</label>
+    <input type="checkbox" name="task">
+</div>
+
+<div class='task'>
+    <label for="task">{{ taskName }}</label>
+    <input type="checkbox" name="task">
+</div> -->
+
+<ul style="list-style-type:none;">
+    <li class="task">
+        <label for="task">{{ taskName }}</label>
+        <input class="check" type="checkbox" name="task" [checked]="status">
+        <input class='input' #box (keyup)="onKey(box.value)">
+        <button class='edit' (click)="onClickMe()">edit</button>
+    </li>
+  </ul>

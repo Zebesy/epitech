@@ -1,0 +1,225 @@
+$nospace : 0 auto;
+$full : 100%;
+$lightblue : #e0eef6;
+$lilblue : #c8e3f2;
+$mediumblue : #b9d9ea;
+$blue : #a5cee5;
+$darkblue : #91c3df;
+$bigblue : #7db8d9;
+$bluebutton : #378bba;
+
+@mixin margin {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@mixin widthfull {
+    width: 100%;
+}
+
+html {
+    height: $full;
+    margin: $nospace;
+
+    body { 
+        @include widthfull;
+        height: $full;
+        margin: $nospace;
+        font-family: 'Lato', sans-serif;
+    }
+}
+
+.header{
+    width: 75%;
+    height: 20em;
+    @include margin;
+
+    .imgheader {
+        width: 100%;
+        height: 100%;
+    }
+
+        .logo {
+            width: 37%;
+            position: absolute;
+            left: 32%;
+            top: 2%;
+        }
+}
+
+.nav {
+    width: 75%;
+    height: 20em;
+    @include margin;
+    background-color: $lilblue;
+    color: white;
+
+    .imgnav {
+        width: 30%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 12%;
+    }
+
+    .nav1 {
+        width: 33.33%;
+        height: 100%;
+        float: left;
+    }
+
+    .nav2 {
+        @extend .nav1;
+    }
+
+    .nav3 {
+        @extend .nav1;
+
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    p {
+        width: 90%;
+        margin-left: 10%;
+        text-justify: auto;
+    }
+}
+
+.article {
+    width: 75%;
+    height: 15em;
+    @include margin;
+    color: white;
+
+    .art1 {
+        width: 25%;
+        height: 100%;
+        float: left;
+        background-color: $lightblue;
+    }
+
+    .art2 {
+        @extend .art1;
+        background-color: $mediumblue;
+    }
+
+    .art3 {
+        @extend .art1;
+        background-color: $blue;
+    }
+
+    .art4 {
+        @extend .art1;
+        background-color: $darkblue;
+    }
+
+    p {
+        width: 90%;
+        text-justify: auto;
+        margin-left: 7%;
+        margin-top: 25%;
+    }
+
+    h2 {
+        width: 80%;
+        font-size: 225%;
+        position: relative;
+        bottom: 10%;
+        left: 52%;
+        margin-bottom: -18%;
+
+        span {
+            font-size: 75%;
+            margin-left: 15%;
+        }
+    }
+}
+
+.caroussel {
+    width: 75%;
+    height: 30em;
+    @include margin;
+
+    .montagne {
+        width: 100%;
+        height: 30em;
+    }
+
+    .larrow {
+        width: 5%;
+        position: absolute;
+        top: 67.25em;
+        left: 12%;
+    }
+
+    .rarrow {
+        width: 5%;
+        position: absolute;
+        top: 67.25em;
+        right: 12%;
+    }
+}
+
+.newsletter {
+
+    width: 75%;
+    height: 9em;
+    @include margin;
+    background-color: $blue;
+    color: white;
+
+    .form {
+        position: relative;
+        top: 27%;
+        text-align: center;
+
+        label {
+            font-size: 180%;
+            position: relative;
+            left: 2%;
+            top: -10px;
+            font-weight: 700;
+        }
+
+        input {
+            width: 30%;
+            height: 2.65em;
+            border: 1px solid $blue;
+            border-radius: 4px;
+            margin-top: 1%;
+            color: #b0bfd3;
+            font-weight: 600;
+        }
+
+        button {
+            width: 9%;
+            height: 1.9em;
+            color: white;
+            background-color: $bluebutton;
+            border: 1px solid $bluebutton;
+            border-radius: 4px;
+            font-size: 100%;
+            margin-left: 3%;
+            position: relative;
+            top: 1px;
+        }
+    }
+}
+
+footer{
+    width: 75%;
+    height: 3em;
+    background-color: $bigblue;
+    @include margin;
+    margin-top: -16px;
+
+    p {
+        color: #bdd2e0;
+        text-align: center;
+        position: relative;
+        top: 15px;
+    }
+}

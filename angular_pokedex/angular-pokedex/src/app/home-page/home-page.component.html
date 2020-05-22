@@ -1,0 +1,19 @@
+
+<body>
+  <div class="divinput">
+    <input type="text" class="input" placeholder="Find Pokemon" [(ngModel)]="term">
+</div>
+
+  <table>
+    <colgroup span="3" class="columns"></colgroup>
+    <tr>
+      <th>N°</th>
+      <th>Picture</th>
+      <th>Name</th>
+    </tr>
+    
+    <tr *ngFor="let res of results | filter:term">
+      <td (click)="onClick()" [routerLink]="['/pokemon', res.id ]">{{ res.id }}</td>
+      <td (click)="onClick() " [routerLink]="['/pokemon', res.id ]"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/{{ res.id }}.png"></td>
+      <td (click)="onClick()" [routerLink]="['/pokemon', res.id ]">{{ res.name }}</td>
+    </tr>

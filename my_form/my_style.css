@@ -1,0 +1,48 @@
+p{
+ font-size: 12px;
+}
+
+.sexe_type,
+.date_type,
+.email_type{
+    border: 2px;
+    border-style: dotted;
+    border-color: blue;
+}
+
+
+.nom_type,
+.tel_type,
+.civilite_type,
+.url_type,
+.passion_type{
+    padding: 2px;
+}
+
+label{
+    display: inline-block;
+    width: 150px;
+}
+
+label:focus{
+    text-align: left;
+}
+
+.sexe_type:hover,
+.date_type:hover,
+.nom_type:hover,
+.tel_type:hover,
+.civilite_type:hover,
+.email_type:hover,
+.url_type:hover,
+.passion_type:hover{
+        background-color: khaki;
+      }
+      
+#submit_button{
+    border-radius: 5px;
+    box-shadow: 0px 2px black;
+}
+
+
+

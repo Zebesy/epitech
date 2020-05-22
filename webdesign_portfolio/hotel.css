@@ -1,0 +1,106 @@
+body {
+    font-family: 'Source sans Pro', cursive;
+    background-color: #000000;
+}
+
+.nav{
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top:0;
+    left:0;
+    position: fixed;
+}
+
+.nav ul{
+    margin-right: 10%;
+    text-align: right;
+}
+.nav li{
+    list-style-type: none;
+    display: inline-block;
+    color: #eff0f1;
+    margin: 0 20px;
+    line-height:80px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: 'Source sans Pro';
+    transition: all ease-in-out 0.6s;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #eff0f1;
+}
+
+.nav a:hover {
+    color:#af0059;
+}
+
+.main {
+    width: 90%;
+    height: 80vh;
+    margin: 0 auto;
+    margin-top: 8%;
+    display: flex;
+}
+
+.description {
+    width: 40%;
+}
+
+h1 {
+    font-size: 262.5%;
+    color: #3b3d4b;
+    margin-left: 0.1%;
+    margin-top: -2%;
+}
+
+h2 {
+    font-size: 230%;
+    color: white;
+    margin-top: -12%;
+}
+
+p,
+li{
+    color: white;
+    font-size: 157%;
+    font-weight: 500;
+}
+
+span {
+    font-weight: 650;
+}
+
+.adventage {
+    margin-top: 7%;
+}
+
+.techno {
+    margin-top: -3%;
+}
+
+.link, 
+.link a {
+    color: #cc0369;
+    text-decoration: none;
+}
+
+.logo {
+    margin-top: 4%;
+    position: relative;
+    left: 10%;
+}
+
+.mock-up {
+    width: 45%;
+    height: 100%;
+}
+
+.mock-up img {
+    width: 46%;
+    position: absolute;
+    left: 47%;
+}

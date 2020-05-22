@@ -1,0 +1,81 @@
+body {
+    width: 100%;
+    font-family: Lato;
+}
+
+.app{
+    width: 35%;
+    height: 25em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: #fefd00;
+}
+
+form{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.durée {
+    margin-left: 24px;
+}
+
+ .send { 
+    margin-left: 23%;
+ }
+
+.btnimg{
+    margin-top: 1em;
+}
+
+ h1 {
+    font-size: 18pt;
+    position: relative;
+    left: 30%;
+ }
+
+ .destination {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    left: 1%;
+ }
+
+ h2 {
+    font-size: 18pt;
+    position: relative;
+    left: 10%;
+ }
+
+ label {
+    position: relative;
+    left: 8%;
+    top: 1px;
+ }
+
+ 
+button{
+     margin-top: 15%;
+     margin-bottom: 10%;
+     background-color:#9a54a0;
+     border-radius:28px;
+     border:1px solid #9a54a0;
+     display:inline-block;
+     cursor:pointer;
+     color:#ffffff;
+     font-family:Arial;
+     font-size:14px;
+     padding:12px 39px;
+     text-decoration:none;
+     text-shadow:0px 1px 0px #9a54a0;
+    }
+    
+    button:active {
+        position:relative;
+        top:1px;
+    }
+ 

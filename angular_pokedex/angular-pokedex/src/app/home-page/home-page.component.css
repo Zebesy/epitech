@@ -1,0 +1,51 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-family: Lato, sans-serif;
+    background-color: #E7E7E7;
+    padding: 5px;
+    border: 4mm ridge rgba(232, 12, 33, 0.9);
+    border-radius: 4px;
+}
+
+th {
+background-color: #57b3e3;
+color: #263238;
+height: 50px;
+border-radius: 3px;
+}
+
+input {
+    position: fixed;
+    margin-top: 2.5%;
+    margin-left: 75%;
+    padding: 3px; 
+    font-size: 16px; 
+    border-color: #2672b9; 
+    border-style: solid; 
+    border-width: 2px; 
+    border-radius: 4px; 
+    box-shadow: 0px 0px 6px 0px rgba(42,42,42,.75); 
+}
+
+input:focus {
+     outline: none; 
+    } 
+
+td {
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #e5f0ea;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+table tr:hover td {
+    background-color: white;
+    transition-delay: 30ms;
+}

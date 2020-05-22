@@ -1,0 +1,571 @@
+body {
+    font-family: Lato;
+    padding: 0;
+    margin: 0;
+}
+
+a, a:visited a:link{
+    text-decoration:none;
+    color: black;
+    }
+
+.header {
+    padding-bottom: 8%;
+    width: 100%;
+    background-color: rgb(204, 255, 255);
+    border-bottom: 1px solid black;
+}
+
+.rs {
+    width:60%;
+    margin: auto;
+}
+
+.rs img{
+    margin-right: 1%;
+    position: relative;
+    top: 1.5em;
+}
+
+.bande {
+    width: 100%;
+    height: 140px;
+    background-color: rgb(154, 153, 255);
+    position: relative;
+    top: 45px;
+    border-top:1px solid black ;
+    border-bottom:1px solid black ;
+}
+
+.nav {
+    width:60%;
+    margin: auto;
+}
+
+.nav img {
+    position: relative;
+    top: 22px;
+}
+
+nav {
+    font-size: 14px;
+    text-align: right;
+    position: relative;
+    bottom: 6vh;
+    right: 5px;
+}
+
+nav a {
+    margin:0 10px; 
+}
+
+li {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+ul {
+    width: 100%;
+    list-style:none;
+    }
+
+.carroussel {
+    width:60%;
+    margin: auto;
+    position: relative;
+    top: 71px;
+}
+
+.carroussel img {
+    width: 100%;
+}
+
+.main {
+    height: 712px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    border-bottom:1px solid black ;
+}
+
+.article {
+    width:60%;
+    height: 66%;
+    margin: auto;
+    position: relative;
+    top: 5%;
+}
+
+.headera {
+    background-color:rgb(154, 153, 255);
+    height: 120px;
+}
+
+.article article{
+    width: 32%;
+    display: inline-block;
+    margin-right: 1%;
+}
+
+.article img {
+    position: relative;
+    top: 1rem;
+}
+
+
+.article h2 {
+    font-size: 16px;
+    color: white;
+    position: relative;
+    width: 58%;
+    bottom: 95%;
+    left: 43%;
+}
+
+.people {
+    position: relative;
+    top: -88%;
+}
+
+.article p {
+    margin-top: 4px;
+    font-size: 14px;
+    line-height: 130%;
+}
+
+.more {
+    color: red;
+}
+
+.destination {
+    width:60%;
+    height: 30%;
+    margin: auto;
+    position: relative;
+    top: 2%;
+}
+
+.destination h2{
+    border-bottom:1px dotted black ;
+}
+
+.destination section{
+    width: 100%;
+}
+
+.destination img {
+    width: 26%;
+    display: inline-block;
+    position: relative;
+    margin-right: 2%;
+    left: 9%;
+    border:1px dotted black ;
+}
+
+.destination footer {
+    width: 100%;
+}
+
+.destination span {
+    margin-right: 23%;
+    position: relative;
+    left: 9.2%;
+}
+
+.undermain {
+    height: 575px;
+    width: 100%;
+    background-color: rgb(204, 255, 255);
+    position: relative;
+    margin-top: -1.4%;
+    border-bottom: 1px solid black;
+}
+
+.undermainc {
+    width: 60%;
+    height: 100%;
+    margin: auto;
+}
+
+.undermainc article {
+    margin-left: 0.5%;
+    display: inline-block;
+}
+
+.about {
+    width: 49%;
+    height: 68%;
+    position: relative;
+    top: 7%;
+}
+
+.undermainc h2{
+    border-bottom:1px dotted black ;
+}
+
+.undermainc p{
+    font-size: 14px;
+    line-height: 130%;
+}
+
+.why {
+    width: 49%;
+    height: 68%;
+    position: relative;
+    bottom: 12.5%;
+}
+
+.why img{
+    width: 22%;
+    float: left;
+}
+
+.why p {
+    position: relative;
+    left: 2%;
+}
+
+.s2 {
+    position: relative;
+    top: 12%;
+    right: 22%;
+}
+
+.s3 {
+    position: relative;
+    top: 17%;
+}
+
+.travel {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    bottom: 13%;
+}
+
+.travel p {
+    position: relative;
+    top: -10px;
+}
+
+button {
+    box-shadow: 0px 10px 14px -7px #3e7327;
+	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	background-color:#77b55a;
+	border-radius:2px;
+	border:1px solid black;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #5b8a3c;
+    position: relative;
+    bottom: 10px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(154, 153, 255);
+    position: relative;
+}
+
+.footer nav {
+    width: 60%;
+    margin: auto;
+    position: relative;
+    top: 11%;
+    right: 32%;
+}
+
+@media screen and (max-width: 1024px) {
+    h2 {
+        font-size: 13px;
+    }
+    
+    .nav img {
+        width: 35%;
+        position: relative;
+        top: 22px;
+    }
+
+    nav {
+        font-size: 9px;
+        text-align: left;
+        position: relative;
+        top: 4vh;
+    }
+
+    li {
+        float: left;
+        position: relative;
+        left: -8%;
+    }
+
+    .carroussel img {
+        position: relative;
+        bottom : 1.5vh;  
+    }
+
+    .main {
+        height: 680px;
+        width: 100%;
+        margin: auto;
+        position: relative;
+        border-bottom:1px solid black ;
+
+    }
+
+    .article {
+        width:60%;
+        height: 66%;
+        margin: auto;
+        position: relative;
+        top: 5%;
+    }
+
+    .article article{
+        width: 31.5%;
+        display: inline-block;
+        margin-right: 1%;
+        height: 100%;
+    }
+
+    .article p {
+        margin-top: 4px;
+        font-size: 9px;
+        line-height: 170%;
+    }
+
+    .article img {
+        float: left;
+        width: 38%;
+        position: relative;
+        top: 4vh;
+        left: 5%;
+    }
+    
+    .article h2 {
+        font-size: 13px;
+        width: 50%;
+        color: white;
+        position: relative;
+        bottom: 44%;
+        text-align: center;
+    }
+
+    .people {
+        position: relative;
+        top: -54%;
+    }
+
+    .safe {
+        position: relative;
+        top: -54%;
+    }
+
+    .destination {
+        position: relative;
+        top: 10%;
+    }
+
+    .destination span {
+        font-size: 9px;
+        margin-right: 23%;
+        position: relative;
+        left: 9.2%;
+    }
+
+    .about {
+        width: 49%;
+        height: 68%;
+        position: relative;
+        top: 0%;
+    }
+
+    .undermainc p{
+        font-size: 9px;
+        line-height: 130%;
+    }
+
+    .why {
+        width: 49%;
+        height: 68%;
+        position: relative;
+        bottom: 23.8%;
+    }
+
+    .s2 p{
+        width: 111%;
+    }
+
+    .travel {
+        width: 100%;
+        margin: auto;
+        position: relative;
+        bottom: 25%;
+    }
+
+    .travel p {
+        padding-top: 1vh;
+    }
+
+    .undermain {
+        height: 380px;
+        width: 100%;
+        background-color: rgb(204, 255, 255);
+        position: relative;
+        margin-top: -1.4%;
+        border-bottom: 1px solid black;
+    }
+
+    .footer nav {
+        width: 60%;
+        margin: auto;
+        position: relative;
+        top: 11%;
+        right: 1%;
+    }
+  }
+/* iPhone 6 */
+  @media screen and (max-width: 667px)  {
+    
+    .rs img{
+        width: 9%;
+        margin-right: 2%;
+        position: relative;
+        top: 1.5em;
+    }
+
+    .nav img {
+        left: 28%;
+        width: 50%;
+        position: relative;
+        top: 0%;
+    }
+
+    li {
+        width: 100%;
+        position: relative;
+        line-height: 175%;
+        border-top: 1px solid white;
+        left: -5%;
+    }
+
+    ul {
+        position: relative;
+        bottom: 6vh;
+        right: 12%;
+    }
+
+    .carroussel {
+        width:60%;
+        height: 21vh;
+        margin: auto;
+        position: relative;
+        top: 71px;
+    }
+
+    .main {
+        height: 220vh;
+        width: 100%;
+        margin: auto;
+        position: relative;
+        border-bottom:1px solid black ;
+    }
+
+    .article {
+        width: 60%;
+        height: 80%;
+        margin: auto;
+        position: relative;
+    }
+
+    .article article{
+        width: 100%;
+        height: 51vh;
+        position: relative;
+        bottom: 9vh;
+    }
+
+    .article p {
+        font-size: 9px;
+        line-height: 170%;
+    }
+
+    .article img {
+        float: left;
+        width: 33%;
+        position: relative;
+        top: 4vh;
+        left: 5%;
+    }
+
+    .destination {
+        width:60%;
+        margin: auto;
+        position: relative;
+        top: -10%;
+    }
+
+    .destination img {
+        width: 100%;
+        position: relative;
+        left: 0%;
+        border:1px dotted black ;
+    }
+
+    .undermain {
+        height: 620px;
+        width: 100%;
+        background-color: rgb(204, 255, 255);
+        position: relative;
+        border-bottom: 1px solid black;
+    }
+
+    .about {
+        width: 100%;
+        height: 68%;
+        position: relative;
+        top: 2%;
+    }
+
+    .why {
+        width: 100%;
+        height: 68%;
+        position: relative;
+        bottom: 25%;
+    }
+
+    .s2 {
+        width: 88%;
+        position: relative;
+        left: 0%;
+        top: 2%;
+    }
+
+    .s3 {
+        position: relative;
+        top: 4%;
+    }
+
+    .travel {
+        position: relative;
+        top: -60%;
+    }
+
+    .footer nav {
+        width: 68%;
+        position: relative;
+        top: 11%;
+        left: 3%;
+    }
+
+    .footer nav a {
+        margin:0 5px;
+    }
+}

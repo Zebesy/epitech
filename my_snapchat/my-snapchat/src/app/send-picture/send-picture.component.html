@@ -1,0 +1,29 @@
+<body>
+<div class='app'>
+<h1>SELECT A PICTURE</h1>
+<!-- (tokenEvent)=receiveToken($ event) -->
+<form >
+  <label for="img">Select image: </label>
+  <input class='btnimg' type="file" name="img" accept="image/*" (change)='onFileChanged($event)'>
+  <button class='btn' type="button" (click)="onSubmit()"> VALIDATE</button>
+</form>
+
+<div class="destination" *ngIf ="isShow">
+<h2>SELECT AN EMAIL</h2>
+<select class="destinataire" [(ngModel)]="selectedMail">
+    <option value='Destinataire'>Destinataire</option>
+    <option *ngFor = "let res of results" value={{res.email}} >{{res.email}}</option>
+</select>
+<label>Duration :</label>
+<select class="durée" [(ngModel)]="selectedDuration">
+    <option value=''>Durée</option>
+    <option value = 1>1s</option>
+    <option value = 2>2s</option>
+    <option value = 3>3s</option>
+    <option value = 4>4s</option>
+    <option value = 5>5s</option>
+</select>
+<button type="button" (click)="onSend()" class = 'send'> SEND</button>
+</div>
+</div>
+</body>

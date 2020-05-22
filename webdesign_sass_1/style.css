@@ -1,0 +1,248 @@
+section, article img, article {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tour, main, .nav, .header, html body {
+  width: 100%;
+}
+
+html {
+  height: 100%;
+  margin: 0 auto;
+}
+html body {
+  height: 100%;
+  margin: 0 auto;
+  font-family: "Lato", sans-serif;
+}
+
+.header {
+  height: 60%;
+  background-image: url("img/header.jpg");
+  background-size: 100% 100%;
+}
+
+.nav {
+  height: 13%;
+  background-color: rgba(255, 255, 255, 0.25);
+  background-image: url("img/rocket_header.png");
+  background-repeat: no-repeat;
+  background-size: 4%;
+  background-position: center;
+}
+.nav img {
+  width: 3%;
+  position: relative;
+  top: 10px;
+  left: 91%;
+  margin-right: 7px;
+}
+
+main {
+  height: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+article {
+  margin-top: 3%;
+  background-color: #f2f2f2;
+  width: 27%;
+  height: 70%;
+}
+article img {
+  width: 45%;
+  display: block;
+  margin-top: 10%;
+}
+
+.titleH {
+  text-align: center;
+  font-size: 36px;
+}
+
+section {
+  width: 90%;
+  text-align: center;
+  font-size: 18px;
+  margin-top: -10px;
+}
+
+.tour {
+  background-image: url("img/barre_grise.png");
+  height: 23%;
+  position: absolute;
+  top: 134%;
+}
+.tour h2 {
+  width: 15%;
+  font-size: 35px;
+  text-align: center;
+  position: absolute;
+  left: 12%;
+  top: 14%;
+}
+.tour img {
+  position: relative;
+  bottom: 26%;
+  width: 19.5%;
+  left: 68.5%;
+}
+
+.take_button {
+  background-color: transparent;
+  border: 2px outset #57c8f9;
+  display: inline-block;
+  cursor: pointer;
+  color: #57c8f9;
+  font-size: 20px;
+  padding: 16px 31px;
+  text-decoration: none;
+  position: absolute;
+  right: 28%;
+  top: 30%;
+}
+
+.take_button:active {
+  position: relative;
+  top: 1px;
+}
+
+.alien {
+  position: absolute;
+  top: 164%;
+  width: 30%;
+  left: 12%;
+}
+.alien img {
+  width: 90%;
+}
+
+.learn {
+  width: 25%;
+  position: absolute;
+  top: 163%;
+  right: 1%;
+  font-size: 22px;
+  text-align: center;
+  border: 2px solid;
+  padding-left: 9%;
+  padding-right: 9%;
+}
+.learn span {
+  color: #bed0fa;
+}
+
+.contact {
+  width: 50%;
+  position: absolute;
+  top: 190%;
+  left: 13%;
+}
+.contact h3 {
+  font-size: 30px;
+}
+.contact h3 .hero1, .contact h3 .hero2 {
+  width: 80%;
+}
+
+.astro {
+  float: left;
+  width: 20%;
+}
+
+.contact p {
+  font-size: 20px;
+  position: relative;
+  left: 5%;
+  top: 3vh;
+}
+
+.hero2 {
+  position: absolute;
+  top: 125%;
+}
+
+form {
+  position: absolute;
+  height: 52%;
+  width: 33%;
+  top: 202%;
+  right: 1%;
+  background-color: #f2f2f2;
+}
+form input, form textarea {
+  position: relative;
+  margin-top: 5%;
+  top: 10%;
+  left: 6.5%;
+  width: 85%;
+  height: 8%;
+  border-radius: 4px;
+}
+
+form label {
+  color: darkgray;
+  font-size: 20px;
+  position: relative;
+  left: 7%;
+  top: 13%;
+}
+
+form textarea {
+  height: 25%;
+  border-radius: 1px;
+}
+
+form .send {
+  background-color: #bed0fa;
+  border-radius: 2px;
+  border: 1px solid #bed0fa;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 15px 19px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #bed0fa;
+  position: absolute;
+  top: 103%;
+  left: 38.5%;
+}
+form .send .send:hover {
+  background-color: #bed0fa;
+}
+form .send .send:hover .send:active {
+  position: relative;
+  top: 1px;
+}
+
+footer {
+  position: relative;
+  top: 107%;
+  height: 45%;
+  background-image: url("img/cloud_footer.png");
+  background-repeat: no-repeat;
+}
+footer .barre_noire {
+  background-color: #64779f;
+  width: 100%;
+  height: 10%;
+  position: relative;
+  top: 90%;
+}
+footer p {
+  width: 100%;
+  position: absolute;
+  color: #f2f2f2;
+  top: -10px;
+  text-align: center;
+  font-size: 18px;
+}
+footer p span {
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

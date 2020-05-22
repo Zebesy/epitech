@@ -1,0 +1,27 @@
+
+    <body>
+        <div class="app">
+        <h1>LOGIN</h1>
+        
+        <div class="container">
+        <form #myForm="ngForm">
+        
+            <input type="text" class="inputEmail" placeholder="EMAIL" name ='email' (keyup)="onKey($event)" required>
+        
+            <input type="password" class="inputPassword" placeholder="PASSWORD" name ='password' (keyup)="onKey2($event)" required>
+        
+            <div class="me">
+                <label for="remember">REMEMBER ME</label>
+                <input type="checkbox" class ="remember" name="remember">
+            </div>
+        
+            <a [routerLink]="['', 'register' ]">NOT A MEMBER</a>
+        
+            <div>
+                <button type="button" (click)="onSubmit()" [routerLink]="['', 'send' ]">LOGIN</button>
+            </div>
+        </form>
+        </div>
+    </div>
+        </body>
+        

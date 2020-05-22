@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+
+body {
+    font-family: Oswald;
+}
+
+.head {
+    background-color: black;
+    height: 93px;
+    width: 955px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a, a:visited a:link{
+text-decoration:none;
+color: #ffffff;
+}
+
+.up {
+    color: white;
+}
+
+.nav {
+    background-color: #660033;
+    height: 380px;
+    width: 280px;
+    position: absolute;
+    left: 243px;
+}
+
+h1 {
+    color: white;
+    font-size: 34px;
+    text-align: center;
+    position: relative;
+}
+
+
+.li {
+    line-height: 44px;
+    list-style-type:none;
+}
+
+.nav li:hover{
+    background-color: black;
+    color: white; 
+}
+
+.divchambre {
+    position: relative;
+    width: 640px;
+    height: 380px;
+    left: 515px;
+}
+
+.imgchambre {
+    margin: auto;
+    width: 640px;
+    height: 380px;
+}
+
+.divpurple {
+    background-color: #660033;
+    width: 35px;
+    height: 380px;
+    position: absolute;
+    right : 242px;
+    top :109px;
+}
+
+main{
+    height: 596px;
+    width: 919px;
+}
+
+button {
+    padding:6px 0 6px 0;
+	font:Bold Oswald;
+	background:#660033;
+	color:#fff;
+	width:90px;
+	border:none;
+}
+
+
+.bienvenue {
+    position: relative;
+    background-color: #cccccc;
+    height : 250px;
+    width : 640px;
+    left : 515px;
+    margin-top: 10px;
+}
+
+.pbienvenue h2 {
+    border-bottom:1px solid black;
+}
+
+
+.h2, .firstp {
+    color: #660033;
+}
+
+.h2s {
+    color: #ffffff;
+}
+
+.imgbienvenue {
+    position: relative;
+    left : 14px;
+    top : 13px;
+}
+
+.pbienvenue {
+    position: relative;
+    height: 250px;
+    width: 280px;
+    left : 355px;
+    bottom : 240px;
+}
+
+.pbienvenue p{
+    position: relative;
+    font-size: 12px;
+    font: Helvetica;
+    bottom : 13px;
+}
+
+.bienvenue button{
+    position: relative;
+    left : 184px;
+    bottom : 13px;
+}
+
+
+.offre {
+    position: relative;
+    height: 250px;
+    width: 640px;
+    margin-bottom: 17px;
+}
+
+.decouvertes {
+    position: relative;
+    background-color: #cccccc;
+    height: 315px;
+    width: 304px;
+    left : 515px;
+    margin-top :10px;
+    margin-bottom: 17px;
+}
+
+.divdecouv {
+    position: relative;
+    width: 280px;
+    margin-left: 14px;
+}
+
+.divdecouv table {
+    position: relative;
+}
+
+
+.divdecouv h2 {
+    border-bottom:1px solid black;
+}
+
+.td1, .td1p {
+    border-top:1px solid lightslategray;
+}
+
+.divdecouv td{
+    border-bottom:1px solid lightslategrey;
+}
+
+.deluxe {
+    font-size: 11px;
+}
+
+.deluxep {
+    font-size: 10px;
+}
+
+.deluxeb {
+    font-size: 10px;
+    color: #660033;
+}
+
+.decouvertes button{
+    position: relative;
+    left : 205px;
+    top : 25px;
+}
+
+.special {
+    position: relative;
+    background-color: #660033;
+    height: 315px;
+    width: 304px;
+    left : 851px;
+    bottom : 335px;
+    margin-top :10px;
+    margin-bottom: 17px;
+}
+
+.divspecial {
+    position: relative;
+    width: 280px;
+}
+
+.special h2 {
+    border-bottom:1px solid black;
+    position: relative;
+    left: 14px;
+}
+
+.divspecial table {
+    position: relative;
+    left: 14px;
+    top : 5px;
+}
+
+.single {
+    border-top:1px solid #990393;
+}
+
+.divspecial td {
+    color: #ffffff;
+    font-size: 14px;
+    border-bottom:1px solid #990393;
+
+}
+
+tr.liste:hover{
+    background-color: #990393;
+}
+
+.aside {
+    /* background-color: lightslategray; */
+    position: relative;
+    left: 235px;
+    bottom: 540px;
+    width: 280px;
+    height: 585px;
+}
+
+.descriptif {
+    width: 269px;
+    height: 306px;
+    border-bottom:1px solid lightslategray ;
+}
+
+.descriptif button {
+    padding:5px 0 5px 0;
+    position: relative;
+    left : 179px;
+    bottom : 8px;
+}
+
+.aside h2{
+    border-bottom:1px solid black;
+    position: relative;
+}
+
+.aside p {
+    font-size: 12px;
+}
+
+.localisation {
+    width: 269px;
+    height: 306px;
+}
+
+iframe{
+    position: relative;
+    bottom : 15px;
+}
+
+.localisation button{
+    padding:5px 0 5px 0;
+    position: relative;
+    left : 179px;
+    bottom : 15px;
+}
+
+.footer {
+    position: relative;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    height: 45px;
+    width: 955px;
+}
+
+.footercontent {
+    text-align: center;
+    position: relative;
+    top: 8px;
+    color: white;
+}

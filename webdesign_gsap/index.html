@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <title>Emoji Factory</title>
+</head>
+
+<body>
+    <button onclick="createHappy()">Happy</button>
+    <button onclick="createSad()">Sad</button>
+    <button onclick="createLove()">Love</button>
+    <button onclick="createTongue()">Tongue</button>
+
+
+    <div class="emoji_face">
+        <img src='Sources/emoji_face.png' class="face"/>
+        <img src='Sources/emoji_face.png' class="face2"/>
+        <img src='Sources/emoji_face.png' class="face3"/>
+        <img src='Sources/emoji_face.png' class="face4"/>
+    </div>
+    <div class='eyes'>
+        <img src='Sources/happy_eyes.png' class="happy_eyes">
+        <img src='Sources/sad_eyes.png' class="sad_eyes">
+        <img src='Sources/in-love_eyes.png' class="in-love_eyes">
+        <img src='Sources/tongue_eyes.png' class="tongue_eyes">
+    </div>
+
+    <div class='mouth'>
+        <img src='Sources/happy_mouth.png' class="happy_mouth">
+        <img src='Sources/sad_mouth.png' class="sad_mouth">
+        <img src='Sources/in-love_mouth.png' class="in-love_mouth">
+        <img src='Sources/tongue_mouth.png' class="tongue_mouth">
+    </div>
+
+    <div class="steps">
+    <div class="first_step">
+        <img src="Sources/conveyor_base.png" class="conveyor_base"/>
+        <img src="Sources/conveyor_arm2.png" class="conveyor_arm2"/>
+        <img src="Sources/conveyor_arm.png" class="conveyor_arm"/>
+        <img src="Sources/conveyor_belt_line.png" class="conveyor_belt"/>     
+    </div>
+
+    <div class="second_step">
+        <img src="Sources/conveyor_base.png" class="second_conveyor_base"/>
+        <img src="Sources/conveyor_arm2.png" class="second_conveyor_arm2"/>
+        <img src="Sources/conveyor_arm.png" class="second_conveyor_arm"/>
+        <img src="Sources/conveyor_belt_line.png" class="second_conveyor_belt"/>     
+    </div>
+
+    <div class="third_step">
+        <img src="Sources/conveyor_base.png" class="third_conveyor_base"/>
+        <img src="Sources/conveyor_arm2.png" class="third_conveyor_arm2"/>
+        <img src="Sources/conveyor_arm.png" class="third_conveyor_arm"/>
+        <img src="Sources/conveyor_belt_line.png" class="third_conveyor_belt"/>     
+        <img src="Sources/conveyor_belt_line.png" class="third_conveyor_belt2"/>     
+    </div>
+</div>
+
+<div class="cache">
+    <img src="Sources/funnel.png" class="funnel"/>
+    <img src="Sources/funnel.png" class="funnel2"/>
+
+</div>
+
+<div class="machine">
+    <img src="Sources/red_lever.png" class="lever"/>
+    <img src="Sources/control-system.png" class="control"/>
+</div>
+    
+    <!-- Script -->
+    <script type="text/javascript" src="main.js"></script>
+</body>

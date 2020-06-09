@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-dataviz"
+    }
+  },
+  "defaultProject": "angular-dataviz",
+  "cli": {
+    "analytics": false
+  }
 }

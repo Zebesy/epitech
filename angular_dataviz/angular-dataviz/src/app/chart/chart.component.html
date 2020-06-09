@@ -1,0 +1,15 @@
+
+<div id='divChart'>
+    <canvas id='myChart1'></canvas>
+    <canvas id='myChart2'></canvas>
+    <canvas id='myChart3'></canvas>
+    <canvas id='myChart4'></canvas>
+    <select id="year" [(ngModel)]='selectedYear' (change)="selected()">
+        <option *ngFor="let year of selectYear" [value]="year">{{year}}</option>
+        <!-- <option value="2011" >2011</option>
+        <option value="2012">2012</option>
+        <option value="2013">2013</option>
+        <option value="2014">2014</option> -->
+    </select>
+
+</div>

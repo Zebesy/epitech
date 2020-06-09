@@ -39,6 +39,7 @@ body {
     top:0;
     left:0;
     position: fixed;
+    z-index: 1;
 }
 
 .nav ul{
@@ -107,7 +108,9 @@ body {
     width : 116%;
 }
 
-.last-image {
+.reveal4,
+.reveal5,
+.reveal6 {
     position: relative;
     top: 7%;
 }
@@ -206,5 +209,10 @@ footer {
 
 .footer-content section p {
     font-size: 150%;
+    color: #3b3d4b;
+}
+
+.footer-content a{
+    text-decoration: none;
     color: #3b3d4b;
 }

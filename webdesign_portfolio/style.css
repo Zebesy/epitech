@@ -104,6 +104,10 @@ body {
     margin-top: 4%;
 }
 
+.project a:hover {
+  opacity: 0.5;
+}
+
 .project a img {
     width : 116%;
 }

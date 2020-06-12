@@ -1,0 +1,21 @@
+.task {
+    border-radius: 7px;
+    background-color: gray;
+    height: 5em;
+    width: 13em;
+    margin-bottom: 0.5em;
+}
+
+.content {
+    position: relative;
+    top: 30%;
+}
+
+.content input {
+    margin-left: 7em;
+}
+
+.input {
+    position: relative;
+    top: 1.5em;
+}

@@ -1,2 +1,1 @@
-# epitech
-Epitech work
+All Projects
